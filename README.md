@@ -15,7 +15,7 @@ Image shows various tasks and functions in SV testbench like Drive, Generate, et
 In Test.sv, these tasks and functions are written in 1 single file and 1 single module called Test and are executed concurrently
 # More Advanced Testbench
 The image below shows the idea of Advanced Testbench, which is written in test_advanced_tb.sv
-![test_advanced_alt](https://github.com/XXBach/Router/blob/main/Pictures%20and%20docs/test_advanced_sv.png)
+![test_advanced_alt](https://github.com/XXBach/Router/blob/main/Pictures%20and%20docs/test_advanced_tb.png)
 This image took a resemblance with the previous one about the tasks that used in SV testbench
 However, the image show that each task now designed into classes, which takes full advantage of SV by using 4 elements of OOP in SV
 Each classes in the testbench have their own task, run on there own thread and communicate to each other by using mailbox and semaphore
