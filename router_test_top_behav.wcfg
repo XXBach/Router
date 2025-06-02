@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="router_test_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="router_test_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="8.583771 us"></ZoomEndTime>
+      <Cursor1Time time="41.550000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/router_test_top/SystemClock" type="logic">
+      <obj_property name="ElementShortName">SystemClock</obj_property>
+      <obj_property name="ObjectShortName">SystemClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_test_top/Simulation_Cycle" type="array">
+      <obj_property name="ElementShortName">Simulation_Cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Simulation_Cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_test_top/t/sa" type="array">
+      <obj_property name="ElementShortName">sa[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sa[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_test_top/t/da" type="array">
+      <obj_property name="ElementShortName">da[3:0]</obj_property>
+      <obj_property name="ObjectShortName">da[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_test_top/dut/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_test_top/dut/din" type="array">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_test_top/dut/valid_n" type="array">
+      <obj_property name="ElementShortName">valid_n[15:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_n[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_test_top/dut/frame_n" type="array">
+      <obj_property name="ElementShortName">frame_n[15:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_n[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_test_top/dut/dout" type="array">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_test_top/dut/valido_n" type="array">
+      <obj_property name="ElementShortName">valido_n[15:0]</obj_property>
+      <obj_property name="ObjectShortName">valido_n[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_test_top/dut/frameo_n" type="array">
+      <obj_property name="ElementShortName">frameo_n[15:0]</obj_property>
+      <obj_property name="ObjectShortName">frameo_n[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_test_top/dut/OP/OP_9/OP_CELL/Input_Channel" type="array">
+      <obj_property name="ElementShortName">Input_Channel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Input_Channel[3:0]</obj_property>
+   </wvobject>
+</wave_config>

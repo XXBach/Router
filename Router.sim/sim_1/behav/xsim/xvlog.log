@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Sem2Year3/Redemption/Router/Router.srcs/sources_1/new/Add_in.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Add_in
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Sem2Year3/Redemption/Router/Router.srcs/sources_1/new/Input_ADDR_Receiver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Input_ADDR_Receiver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Sem2Year3/Redemption/Router/Router.srcs/sources_1/new/Input_Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Input_Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Sem2Year3/Redemption/Router/Router.srcs/sources_1/new/Input_Ports.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Input_Ports
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Sem2Year3/Redemption/Router/Router.srcs/sources_1/new/Output_Cell.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Output_Cell
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Sem2Year3/Redemption/Router/Router.srcs/sources_1/new/Output_Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Output_Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Sem2Year3/Redemption/Router/Router.srcs/sources_1/new/Output_Port.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Output_Port
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Sem2Year3/Redemption/Router/Router.srcs/sources_1/new/Output_Ports.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Output_Ports
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Sem2Year3/Redemption/Router/Router.srcs/sources_1/new/Router.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Router
