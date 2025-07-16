@@ -1,5 +1,19 @@
 # Router
-Router Design, Basic SV testbench and more advance SV testbench
+# Router Design, Basic SV testbench and more advance SV testbench
+# Introduction
+
+A 16x16 router designed by Verilog and verified by SystemVerilog.
+
+The design components:
+
+• Input port: These are components that capture the address bit by bit in phase 1, send connection request signals to output ports and confirm a 1-1 connection.
+• Output port: These are ports that receive requests from Input Ports and confirm connection if the port is free, these ports will then receive 2 other control signal from outside to determine when and whether the data is valid and the transfering process is finish. There is priority algorithm and each port will have 1 inner Controller to control it.  
+
+This project is my next step to learn how to actually write a proper testbench by SystemVerilog that contains
+• An interface to connect the design to the testbench.
+• A testbench that mainly contain of classes that mimic modules of a proper testbench, using semaphore and mailbox to connect between these class. These modules are Driver, Receiver, Generator, Scoreboard and Packet. The Packet module will simulate how the data be transfered between these testbench modules and the design itself, mailbox and semaphore are mainly used for this data transformation since each module in the testbench will be execute parallel but will share the connection to each packet.
+• A top file.
+
 # Design Idea
 The picture below shows the idea of Router Design
 ![router_alt](https://github.com/XXBach/Router/blob/main/Pictures%20and%20docs/Router.png)
@@ -21,7 +35,9 @@ The pỉcture below shows the idea of Basic Testbench, which is written in Test.
 Image shows various tasks and functions in SV testbench like Drive, Generate, etc. 
 
 In Test.sv, these tasks and functions are written in 1 single file and 1 single module called Test and are executed concurrently.
+
 # More Advanced Testbench
+
 The image below shows the idea of Advanced Testbench, which is written in test_advanced_tb.sv.
 ![test_advanced_alt](https://github.com/XXBach/Router/blob/main/Pictures%20and%20docs/test_advanced_tb.png)
 
@@ -31,4 +47,13 @@ However, the image show that each task now designed into classes, which takes fu
 
 Each classes in the testbench have their own task, run on there own thread and communicate to each other by using mailbox and semaphore
 
-Unfortunately I don't have enough time to fully design and run the advanced testbench
+# Non-technical note
+
+I am using Vivado 2024.1, AMD Vivado Simulator and Virtex-7 VC707 Evaluation Platform but whoever doesn't have Vivado license can use any of the Artix-7 instead.
+
+# Technical note
+
+My design is not alike to any other 16x16 routers as I were not doing any research when design it, so the design itself contains many problem that I do not know for certain.
+
+Should you meet any errors that occur during design and verification processes, feel free to leave a comment, I am currently a student and still a novice to this industry so I am eager to learn.  
+
