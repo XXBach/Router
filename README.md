@@ -7,11 +7,15 @@ A 16x16 router designed by Verilog and verified by SystemVerilog.
 The design components:
 
 • Input port: These are components that capture the address bit by bit in phase 1, send connection request signals to output ports and confirm a 1-1 connection.
+
 • Output port: These are ports that receive requests from Input Ports and confirm connection if the port is free, these ports will then receive 2 other control signal from outside to determine when and whether the data is valid and the transfering process is finish. There is priority algorithm and each port will have 1 inner Controller to control it.  
 
 This project is my next step to learn how to actually write a proper testbench by SystemVerilog that contains
+
 • An interface to connect the design to the testbench.
+
 • A testbench that mainly contain of classes that mimic modules of a proper testbench, using semaphore and mailbox to connect between these class. These modules are Driver, Receiver, Generator, Scoreboard and Packet. The Packet module will simulate how the data be transfered between these testbench modules and the design itself, mailbox and semaphore are mainly used for this data transformation since each module in the testbench will be execute parallel but will share the connection to each packet.
+
 • A top file.
 
 # Design Idea
